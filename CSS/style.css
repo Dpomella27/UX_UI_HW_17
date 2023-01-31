@@ -1,0 +1,104 @@
+body {
+    background-color: #b2dfda;
+    font-style: helvetica;
+}
+
+.topnav {
+    background-color: #35535b;
+    width: auto;
+    height: 55px;
+    font-size: 20px;
+    color: #b2dfda;
+}
+
+.topnav a {
+    color: #b2dfda;
+    font-size: 20px;
+    font-style: inter;
+}
+
+.leftnav {
+    text-align: left;
+}
+
+.rightnav {
+    text-align: right;
+}
+
+.topnav a:hover {
+    background-color: #dc9e24;
+    color: #b2dfda;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #35535b;
+}
+
+li {
+    display: inline;
+    padding: 25px;
+}
+
+footer {
+    font-style: inter;
+    background-color: #35535b;
+    color: #b2dfda;
+    width: auto;
+    height: 55px;
+    font-size: 20px;
+}
+
+.footerleft ul {
+    text-align: left;
+    display: block;
+}
+
+.footerright ul {
+    text-align: right;
+    display: block;
+}
+
+.me {
+    border-radius: 169px;
+    margin-left: 75px;
+    margin-top: 35px;
+}
+
+.info {
+    float: right;
+    font-size: 22px;
+    padding-top: 100px;
+    padding-right: 75px;
+}
+
+.tools {
+    float: left;
+    font-size: 28px;
+    margin-left: 100px;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+
+.tools ul {
+    background-color: #b2dfda;
+}
+
+.work {
+    font-size: 18px;
+    border: 1px solid #dc9e24;
+    display: flex; 
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.contact {
+    font-size: 22px;
+    border: 1px solid #dc9e24;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
