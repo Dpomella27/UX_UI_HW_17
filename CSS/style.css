@@ -1,9 +1,13 @@
 body {
     background-color: #b2dfda;
-    font-style: helvetica;
+    font-family: Helvetica;
 }
 
 .topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
     background-color: #35535b;
     width: auto;
     height: 55px;
@@ -14,7 +18,7 @@ body {
 .topnav a {
     color: #b2dfda;
     font-size: 20px;
-    font-style: inter;
+    font-family: Cambria;
 }
 
 .leftnav {
@@ -43,23 +47,36 @@ li {
 }
 
 footer {
-    font-style: inter;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Cambria;
     background-color: #35535b;
     color: #b2dfda;
-    width: auto;
-    height: 55px;
+    width: 100%;
+    padding: 32px 0;
     font-size: 20px;
 }
 
 .footerleft ul {
     text-align: left;
-    display: block;
+    display: flex;
+}
+
+.footerleft li {
+    display: flex;
+    align-items: center;
+}
+
+.footerleft img{
+    padding-right: 16px;
 }
 
 .footerright ul {
     text-align: right;
-    display: block;
+    display: flex;
 }
+
 
 .me {
     border-radius: 169px;
@@ -84,6 +101,8 @@ footer {
 
 .tools ul {
     background-color: #b2dfda;
+    display: flex;
+    flex-direction: column;
 }
 
 .work {
@@ -92,13 +111,33 @@ footer {
     display: flex; 
     justify-content: space-around;
     padding-bottom: 100px;
+    flex-direction: column;
 }
 
 .contact {
     font-size: 22px;
-    border: 1px solid #dc9e24;
-    margin: auto;
+    border: 3px solid #dc9e24;
+    margin: 100px auto;
     text-align: center;
     padding-bottom: 100px;
     padding-top: 100px;
+    width: 500px;
+}
+
+.card {
+    background-color:#35535b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 16px;
+    color:azure;
+    border: 5px solid #dc9e24;
+    display: flex;
+}
+
+.btn {
+    background-color:#dc9e24
+}
+
+.title {
+    font-size: 36px;
+    color: #dc9e24;
 }
